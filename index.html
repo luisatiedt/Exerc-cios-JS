@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="soma">Soma</p>
+    <button onclick="somar()">Somar</button>
+
+    <script>
+      let soma = 0;
+      let somaEl = document.getElementById('soma');
+
+      somaEl.innerHTML = soma;
+
+        function somar(){
+            console.log('somando');
+            soma = soma + 1;
+            somaEl.innerHTML = soma;
+        }
+
+    </script>
+</body>
+</html>
